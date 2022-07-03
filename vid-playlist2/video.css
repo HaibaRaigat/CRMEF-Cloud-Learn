@@ -1,0 +1,164 @@
+/* (A) MATERIAL ICONS */
+.material-icons {
+  font-size: 28px;
+  color: #fff;
+}
+
+/* (B) WRAPPER */
+
+#vnWrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  background: rgba(222,226,230,0);
+}
+#vWrap {
+  font-family: arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 600px;
+  background: rgba(222,226,230,0);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+   white-space: nowrap;
+    overflow-x: auto;
+    
+}
+
+/* (C) VIDEO */
+#vVid {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+ 
+}
+
+/* (D) PLAY/PAUSE BUTTON */
+
+  svg{
+        margin-left: 40px;
+      }
+
+
+      g{
+
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+  font-weight: 100;
+  margin-left: 7pt;  
+      }
+
+
+#vPlay {
+  padding: 10px;
+  margin: 0;
+  background: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+/* (E) TIME */
+#vCron {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+/* (F1) RANGE SLIDERS */
+/* (F1) HIDE DEFAULT */
+#vWrap input[type="range"] {
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  background: 0;
+}
+#vWrap input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+}
+
+/* (F2) CUSTOM SLIDER TRACK */
+#vWrap input[type=range]::-webkit-slider-runnable-track {
+  background: #6d6e6e;
+  border-radius: 10px;
+}
+#vWrap input[type=range]::-moz-range-track {
+  background: #b8cfdc;
+  border-radius: 10px;
+}
+
+/* (F3) CUSTOM SLIDER BUTTON */
+#vWrap input[type=range]::-webkit-slider-thumb {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  border: 0;
+  background: #fff;
+  flex : 0 1;
+}
+#vWrap input[type=range]::-moz-range-thumb {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  border: 0;
+  background: #fff;
+}
+
+/* (G) SEEK BAR */
+#vSeek {
+  width: 180px;
+}
+
+/* (H) VOLUME */
+#vVolume {
+  width: 100px;
+}
+#vVolIco {
+  margin: 0 10px;
+}
+
+/* (I) PLAYLIST */
+#vList {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #ffffff;
+  background: #3a3b3b;
+}
+.vRow {
+  cursor: pointer;
+  padding: 10px 0;
+}
+.vRow.now {
+  color: rgb(250, 0, 104);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(222,226,230,0); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(222,226,230,0); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #535353;
+  border-radius: 22px;
+}

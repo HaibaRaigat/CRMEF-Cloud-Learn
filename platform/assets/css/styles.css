@@ -1,0 +1,51 @@
+.table-responsive{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+overflow: hidden;
+
+
+}
+
+.table {
+    display: table;
+    table-layout: auto;
+    overflow: hidden;
+
+}
+
+
+html,body {
+    height: 100%;
+    min-height: 100% !important;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #535353;
+    border-radius: 22px;
+  }
+  
+.image{
+  width: 333px;
+  height: 333px;
+}
+
